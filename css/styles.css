@@ -91,7 +91,7 @@
      */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
-/* @import url("micons.css"); */
+@import url("icons.css");
 
 /* ------------------------------------------------------------------- 
  * ## colors
