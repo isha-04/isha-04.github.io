@@ -91,6 +91,7 @@
      */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
+/* @import url("micons.css"); */
 
 /* ------------------------------------------------------------------- 
  * ## colors
@@ -4000,13 +4001,13 @@ input[type="button"].btn--primary:focus {
        border-radius: 3px;
  }
  .bars li em {
-     font: 15px 'opensans-bold', sans-serif;
+    font: 15px 'opensans-bold', sans-serif;
     color: #313131;
-     text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 2px;
-     font-weight: normal;
+    font-weight: normal;
     position: relative;
-     top: -36px;
+    top: -36px;
  }
  .bar-expand {
     position: absolute;
@@ -4621,9 +4622,9 @@ input[type="button"].btn--primary:focus {
 }
 
 .contact-block {
-    font-size: 2.8rem;
+    /* font-size: 2.8rem; */
     font-weight: 400;
-    line-height: 1.286;
+    /* line-height: 1.286; */
 }
 
 .contact-block a {
@@ -4640,6 +4641,27 @@ input[type="button"].btn--primary:focus {
     color: rgba(255, 255, 255, 0.4);
     margin-top: 0;
     margin-bottom: .2rem;
+}
+
+/* .contact-block .icon {
+	margin-bottom: 2.1rem;
+}
+.contact-block .icon i {
+	font-size: 4.2rem;
+	color: #FFFFFF;
+} */
+
+.contact-block h5 {
+	color: hsla(182, 82%, 38%, 1);
+    font: 20px 'opensans-bold', sans-serif;
+}
+
+.contact-block .collapse {
+	padding: 0;
+}
+
+.whiteiconcolor {
+    color:white;
 }
 
 /* ------------------------------------------------------------------- 
